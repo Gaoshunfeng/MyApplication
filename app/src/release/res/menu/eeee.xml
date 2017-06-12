@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="新建" android:icon="@drawable/icon" android:id="@+id/newinfo">
+
+        <menu>
+
+            <group android:id="@+id/new_group"
+
+                android:checkableBehavior="none">
+
+                <item android:id="@+id/newFile" android:title="新建文件"/>
+
+                <item android:id="@+id/newDoc" android:title="新建文档"/>
+
+                <item android:id="@+id/newList" android:title="新建列表"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="查看" android:icon="@drawable/icon" android:id="@+id/view">
+
+        <menu>
+
+            <group android:id="@+id/view_group" android:checkableBehavior="single">
+
+                <item android:id="@+id/viewinfo" android:title="信息" android:checked="true"/>
+
+                <item android:id="@+id/info" android:title="详情" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="删除" android:icon="@drawable/icon" android:id="@+id/delete">
+
+        <menu>
+
+            <group android:id="@+id/delete_group">
+
+                <item android:id="@+id/deleteone" android:title="删除详情" />
+
+                <item android:id="@+id/deletelist" android:title="删除列表" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
